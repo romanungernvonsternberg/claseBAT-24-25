@@ -18,16 +18,28 @@ print("4 - Salir del programa")
 modo = int(input("Escribe uno de los modos: "))
 
 while modo != 4:
-    if modo == 1:
+    if modo == 1 :
         print("La suma de", n1, "y", n2, "es", n1+n2)
-    modo = int(input("Nuevo modo: "))
-    elif modo == 2:
+    
+    elif modo == 2 :
         print("La resta de", n1, "y", n2, "es", n1-n2)
-    modo = int(input("Nuevo modo: "))
-    elif modo == 3:
+    
+    elif modo == 3 :
         print("La multiplicación de", n1, "y", n2, "es", n1+n2)
-    modo = int(input("Nuevo modo: "))
-    elif modo != 1, 2, 3, 4:
-        modo = int(input("Escribe uno de los modos: "))
-        else:
-            print("Adios")
+        
+    else :
+        print("Modo no reconocido")
+
+    modo = int(input("Escribe uno de los modos: "))
+
+print("Adios")
+
+
+    #if modo == 1:
+    #    print("La suma de", n1, "y", n2, "es", n1+n2)
+    #modo = int(input("Nuevo modo: "))
+    #elif modo == 2:
+    #    print("La resta de", n1, "y", n2, "es", n1-n2)
+    #modo = int(input("Nuevo modo: "))
+    #elif modo == 3:
+    #    print("La multiplicación de", n1, "y", n2, "es", n1+n2)
