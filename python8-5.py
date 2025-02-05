@@ -12,7 +12,7 @@ for i in range(0, 12):
 
 n = int(input("¿Qué numero quieres buscar?..."))
 
-for i in range(0, 12):
+while n != 0:
     if datos[i] == n :
         print("Ese número esta en los datos")
         n = int(input("¿Qué numero quieres buscar?..."))
